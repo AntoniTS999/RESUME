@@ -1,0 +1,315 @@
+body {
+  background: radial-gradient(rgb(253, 187, 187), rgb(201, 201, 255));
+  margin: auto;
+  font-family: Boldonse Static, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockFirstPage {
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin: 120px;
+  padding: 180px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+  background: #f5d0b2;
+  color: #7b3f15;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 50px;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  display: block;
+  margin: 50px;
+  text-align: center;
+}
+
+.button:hover {
+  color: rgb(63, 2, 104);
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+h1 {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+/* тут новая страница */
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto&display=swap');
+
+.block-1 {
+  width: 100%;
+  max-width: 750px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #f9e7d869;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 14px rgba(40, 4, 4, 0.25);
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.picture {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 4px 4px 14px rgba(108, 79, 79, 0.25);
+  display: block;
+  margin-right: 50px;
+}
+
+.conteiner {
+  display: flex;
+}
+
+.conteiner p {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.block-1 h1 {
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.line {
+  margin-left: 200px;
+  margin-right: 200px;
+  border: none;
+  height: 2px;
+  background-color: rgb(207, 192, 192);
+}
+
+@media (max-width: 768px) {
+  .block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .picture {
+    margin: 0 auto 20px;
+    width: 80%;
+  }
+  .tableUp {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+}
+
+.block-2 {
+  width: 100%;
+  max-width: 750px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #f9e7d869;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 14px rgba(40, 4, 4, 0.25);
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.block-2 h2 {
+  text-align: center;
+}
+
+.insideTheBlock {
+  width: 100%;
+  max-width: 750px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #f1eeea69;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 14px rgba(40, 4, 4, 0.25);
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.block-3 {
+  width: 100%;
+  max-width: 750px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #f9e7d869;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 14px rgba(40, 4, 4, 0.25);
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.block-3 h2 {
+  text-align: center;
+}
+
+.block-3 li {
+  text-align: left;
+}
+
+.block-4 {
+  width: 100%;
+  max-width: 750px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #f9e7d869;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 14px rgba(40, 4, 4, 0.25);
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.block-4 h2 {
+  text-align: center;
+}
+
+.tableUp {
+  display: block;
+  margin: auto;
+}
+.tableUp td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.tableUp th {
+  padding: 10px;
+  background: #ea8d5bb8;
+}
+.tableUp td:hover {
+  background: rgb(239, 154, 137);
+}
+
+.tableUp tr:nth-child(odd) {
+  background: #f4f8df;
+}
+.tableUp tr:nth-child(even) {
+  background: #f4e0d4;
+}
+
+.tableUp td:nth-child(2) {
+  background: #ebd69c;
+  color: white;
+  font-style: italic;
+}
+
+.block-5 {
+  width: 100%;
+  max-width: 750px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #f9e7d869;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 14px rgba(40, 4, 4, 0.25);
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.block-5 h2 {
+  text-align: center;
+}
+
+.insideTheBlock a {
+  display: inline-block;
+  width: 30%; /*сузили элемент*/
+  box-sizing: border-box;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(140, 7, 38);
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(218, 78, 253);
+}
+a:active {
+  color: rgb(192, 205, 9);
+}
+
+.block-6 {
+  width: 100%;
+  max-width: 750px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #f9e7d869;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 14px rgba(40, 4, 4, 0.25);
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.block-6 h2 {
+  text-align: center;
+}
+
+.form-row .form-group {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.btn {
+  background: #f5d0b2;
+  color: #7b3f15;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 50px;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
